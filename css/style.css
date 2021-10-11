@@ -1,0 +1,156 @@
+
+/* Desktop */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 100% Helvetica, sans-serif;
+    color: #269473;
+  
+   
+  }
+  
+
+  
+  nav {
+    font: 100% Helvetica, sans-serif;
+    color: #29879e;
+    background-color:#FF997A;
+    display: block;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: #29879e;
+  }
+  
+
+  section {
+      background-color: #e7c819 ;
+  }
+
+
+ .one {
+    background-color: #e7c819;
+    padding: 5px;
+    float:left;
+    width:50%;
+    height:100%;
+  }
+
+   
+  
+  .two {
+    background-color: #e7c819;
+    padding: 5px;
+    float:left;
+    width:50%;
+    height: 100%;
+  }
+
+  .a2 {
+      height:100%;
+  }
+  
+  footer { 
+    font: 100% Helvetica, sans-serif;
+    color: #29879e;
+    background-color:#8CFFA3;
+    display:block;
+    clear:both;
+    }
+  
+  
+
+
+  /* mobiler under 420px */
+ 
+  @media only screen and (max-width: 420.45px) {
+    
+    * {
+        box-sizing:border-box;
+        margin:0;
+    }
+
+    body {
+      margin: 0;
+      font: 100% Helvetica, sans-serif;
+      font-size:16px;
+      color: #269473;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    nav {
+      font: 100% Helvetica, sans-serif;
+      color: #e7c819;
+      font-size:18px;
+    }
+    nav ul {
+      padding: 0;
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+    }
+    nav a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: #29879e;
+    }
+
+    section {
+    width: 100%;
+    background-color: #e7c819;
+    }
+  
+
+    .one {
+    width: 100%;
+  
+    display:block;
+    background-color: #e7c819;
+    }
+
+    .two {
+    width:100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    display:block;
+    background-color: #e7c819;  
+    }
+
+    h1
+    {
+    font-size: 16px;
+    padding-top:10px;
+    }
+
+    footer { 
+        font: 100% Helvetica, sans-serif;
+        color: #29879e;
+        background-color:#8CFFA3;
+        display:block;
+     
+        }
+    p.footer {
+        padding-top:10px;
+    }
+      
+  }
